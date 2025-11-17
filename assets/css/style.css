@@ -1,0 +1,160 @@
+/* -------------------------
+   BASIC RESET + DEFAULTS
+-------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth fonts */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Body default reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+
+/* Remove spacing from <p> */
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Links reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove list default styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Buttons reset */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Inputs/textarea basic reset */
+input,
+textarea,
+select {
+  outline: none;
+  font-family: inherit;
+}
+/* -------------------------------------
+   DM Sans Font Family (Local Assets)
+-------------------------------------- */
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DM_Sans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DM_Sans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DM_Sans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+/* .top-nav{
+    background-color: #00B1A2;
+    padding: 12px 0;
+}
+.top-nav-close-icon{
+    height: 24px;
+    width: 24px;
+}
+.top-nav-p{
+   font-size: 16px;
+}
+
+
+
+
+.sec-nav{
+    background-color: #003D5C;
+    padding: 12px;
+}
+.sec-nav-icon-size{
+    height: 14px;
+    width: 14px;
+}
+.sec-nav-p{
+    font-size: 14px;
+}
+.sec-nav-me-8{
+    margin-right: 8px;
+}
+.sec-nav-me-24{
+    margin-right: 24px;
+} */
+
+
+
+.top-nav{
+    background-color: #00B1A2;
+    padding: 12px 0;
+}
+.top-nav-close-icon{
+    height: 24px;
+    width: 24px;
+}
+.top-nav-p{
+   font-size: 16px;
+}
+
+.sec-nav{
+    background-color: #003D5C;
+    padding: 12px;
+}
+.sec-nav-icon-size{
+    height: 14px;
+    width: 14px;
+}
+.sec-nav-p{
+    font-size: 14px;
+}
+.sec-nav-me-8{
+    margin-right: 8px;
+}
+.sec-nav-me-24{
+    margin-right: 24px;
+}
