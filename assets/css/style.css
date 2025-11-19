@@ -54,11 +54,11 @@ body {
 }
 
 h1 h2 h3 h4 h5 h6 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 a {
@@ -122,9 +122,11 @@ img {
 .navbar-brand img {
   height: 46px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   border: none;
 }
+
 .navbar .nav-link {
   font-weight: 500;
   color: var(--text-muted);
@@ -277,8 +279,11 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin: 15px 0;
 }
-
+.pb-cus-16{
+  padding-bottom: 26px!important;
+}
 .pill-img {
   width: 32px;
   height: 32px;
@@ -388,6 +393,10 @@ section {
 
 .mb-80 {
   margin-bottom: 100px;
+}
+
+.mt-70 {
+  margin-top: 70px;
 }
 
 .mt-16 {
@@ -583,9 +592,11 @@ section {
 .how-title span {
   color: #0d5ace;
 }
-.how-desktop{
+
+.how-desktop {
   padding: 120px 0;
 }
+
 .how-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -905,112 +916,113 @@ section {
 
 /* BACKGROUND GRADIENT (EXACT FROM SCREENSHOT) */
 .partners-sec {
-    background: linear-gradient(90deg, #f6e3dd 0%, #eaf5f7 40%, #d8f1fa 100%);
+  background: linear-gradient(90deg, #f6e3dd 0%, #eaf5f7 40%, #d8f1fa 100%);
 }
 
 /* LEFT TITLE */
 .partners-title {
-    font-size: 24px;
-    font-weight: 600;
-    color: #0c1c3c;
-    line-height: 1.4;
-    margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0c1c3c;
+  line-height: 1.4;
+  margin: 0;
 }
 
 /* VERTICAL DIVIDER */
 .divider {
-    width: 2px;
-    height: 50px;
-    background: #0d5ace;
-    margin-left: auto;
+  width: 2px;
+  height: 50px;
+  background: #0d5ace;
+  margin-left: auto;
 }
 
 /* LOGO SLIDER */
 .logo-slider {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .logo-track {
-    display: flex;
-    gap: 50px;
-    animation: scrollLeft 18s linear infinite;
+  display: flex;
+  gap: 50px;
+  animation: scrollLeft 18s linear infinite;
 }
 
 .partner-logo {
-    height: 42px;
-    object-fit: contain;
+  height: 42px;
+  object-fit: contain;
 }
 
 /* KEYFRAME FOR SMOOTH LEFT-TO-RIGHT SCROLL */
 @keyframes scrollLeft {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* FOOTER BASE */
 .footer-sec {
-    background: #0c1224; /* exact dark navy */
-    color: #d1d6e0;      /* light gray text */
+  background: #0c1224;
+  /* exact dark navy */
+  color: #d1d6e0;
+  /* light gray text */
 }
 
 /* LOGO */
 .footer-logo {
-    height: 48px;
+  height: 48px;
 }
 
 /* DESCRIPTION TEXT */
 .footer-desc {
-    font-size: 16px;
-    line-height: 1.7;
-    max-width: 380px;
-    color: #c4c9d4;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 380px;
+  color: #c4c9d4;
 }
 
 /* SECTION TITLES */
 .footer-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffffff;
-    margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 /* LINKS LIST */
 .footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-links li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-links a {
-    font-size: 16px;
-    color: #c4c9d4;
-    text-decoration: none;
-    transition: 0.3s;
+  font-size: 16px;
+  color: #c4c9d4;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .footer-links a:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* COPYRIGHT */
 .footer-bottom {
-    border-top: 1px solid #1c2238;
-    color: #b7bcc7;
-    font-size: 16px;
+  border-top: 1px solid #1c2238;
+  color: #b7bcc7;
+  font-size: 16px;
 }
 
-/* RESPONSIVE TWEAKS */
-@media (max-width: 768px) {
-    .footer-title {
-        margin-top: 25px;
-    }
-}
 
 
 
@@ -1244,24 +1256,34 @@ section {
   }
 
   .why-section {
-  text-align: center;
-  padding: 88px 0;
-}
-
-.who-serve-section {
-  background: linear-gradient(to bottom right, #e8fafa, #f5fbfc, #ffffff);
-  padding: 88px 0;
-  padding-bottom: 100px;
-}
- .cta-sec {
+    text-align: center;
     padding: 88px 0;
   }
-      .divider {
+
+  .who-serve-section {
+    background: linear-gradient(to bottom right, #e8fafa, #f5fbfc, #ffffff);
+    padding: 88px 0;
+    padding-bottom: 100px;
+  }
+
+  .cta-sec {
+    padding: 88px 0;
+  }
+
+  .divider {
     width: 2px;
     height: 50px;
     background: #0d5ace;
     margin-left: 10px;
-}
+  }
+
+  .footer-title {
+    margin-top: 25px;
+  }
+
+  .mt-70 {
+    margin-top: 24px;
+  }
 }
 
 /* ---------------------------
@@ -1271,7 +1293,14 @@ section {
    Mobile: ≤ 767px
    --------------------------- */
 @media (max-width: 767px) {
-
+.pill {
+    padding: 10px 70px 10px 70px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 2px 0;
+}
   /* GLOBAL SECTION SPACING */
   section {
     padding-left: 16px;
@@ -1321,6 +1350,13 @@ section {
     height: 120px;
   }
 
+
+  .hero-trust {
+    font-size: 16px;
+    color: #00B1A2;
+    font-weight: 700;
+    text-align: left;
+}
   /* HERO PILLS */
   .hero-pills {
     padding: 14px;
@@ -1329,7 +1365,7 @@ section {
   }
 
   .pill {
-    padding: 14px 20px;
+    padding: 0;
     gap: 14px;
   }
 
@@ -1345,9 +1381,9 @@ section {
 
   .pill-border-right {
     border-right: none;
-    border-bottom: 1px solid rgba(8, 31, 76, 0.06);
-    padding-bottom: 12px;
-    margin-bottom: 12px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   /* SERVICES SECTION */
@@ -1513,37 +1549,44 @@ section {
     display: block;
   }
 
-    .why-section {
-  text-align: center;
-  padding: 44px 0;
-}
+  .why-section {
+    text-align: center;
+    padding: 44px 0;
+  }
 
-.who-serve-section {
-  background: linear-gradient(to bottom right, #e8fafa, #f5fbfc, #ffffff);
-  padding: 44px 0;
-  padding-bottom: 100px;
-}
+  .who-serve-section {
+    background: linear-gradient(to bottom right, #e8fafa, #f5fbfc, #ffffff);
+    padding: 44px 0;
+    padding-bottom: 100px;
+  }
+
   .partners-title {
-        font-size: 20px;
-        text-align: left;
-    }
+    font-size: 20px;
+    text-align: left;
+  }
 
-    .divider {
-        height: 40px;
-        margin-left: 12px;
-    }
+  .divider {
+    height: 40px;
+    margin-left: 12px;
+  }
 
-    .partner-logo {
-        height: 32px;
-    }
+  .partner-logo {
+    height: 32px;
+  }
 
-    .logo-track {
-        gap: 35px;
-    }
-    .divider {
+  .logo-track {
+    gap: 35px;
+  }
+
+  .divider {
     width: 2px;
     height: 50px;
     background: #0d5ace;
     margin-left: 10px;
-}
+  }
+
+  .mt-70 {
+    margin-top: 15px;
+
+  }
 }
