@@ -1,562 +1,672 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Invoice Minds</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet"
-      href="./assets/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Invoice Minds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-  <body>
-    <div class="page-shell">
-      <!-- NOTICE BAR -->
-      <section class="notice-bar text-white">
-        <div class="container">
-          <div class="d-flex align-items-center justify-content-between gap-3">
-            <p class="notice-text">
-              Meet us at MJBizCon 2025, Las Vegas, NV — Supporting cannabis
-              businesses with expert accounting solutions.
-            </p>
-            <img src="./assets/image/cross-icon.png" alt="close"
-              class="notice-icon" />
-          </div>
+<body>
+  <div class="page-shell">
+    <!-- NOTICE BAR -->
+    <section class="notice-bar text-white">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <p class="notice-text">
+            Meet us at MJBizCon 2025, Las Vegas, NV — Supporting cannabis
+            businesses with expert accounting solutions.
+          </p>
+          <img src="./assets/image/home-page/cross-icon.png" alt="close" class="notice-icon" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- UTILITY BAR -->
-      <section class="utility-bar text-white">
-        <div class="container">
-          <div
-            class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-            <div class="d-flex flex-wrap align-items-center gap-3">
-              <div class="d-flex align-items-center gap-2">
-                <img src="assets/image/phon_icon.png" alt="phone"
-                  class="utility-icon" />
-                <span>+1 (573) 340-1245</span>
-              </div>
-              <div class="d-flex align-items-center gap-2">
-                <img src="assets/image/mail_icon.png" alt="mail"
-                  class="utility-icon" />
-                <span>info@invoiceminds.com</span>
-              </div>
+    <!-- UTILITY BAR -->
+    <section class="utility-bar text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+          <div class="d-flex flex-wrap align-items-center gap-3">
+            <div class="d-flex align-items-center gap-2">
+              <img src="assets/image/home-page/phon_icon.png" alt="phone" class="utility-icon" />
+              <span>+1 (573) 340-1245</span>
             </div>
             <div class="d-flex align-items-center gap-2">
-              <img src="assets/image/wold_icon.png" alt="world"
-                class="utility-icon" />
-              <span>United States</span>
+              <img src="assets/image/home-page/mail_icon.png" alt="mail" class="utility-icon" />
+              <span>info@invoiceminds.com</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <img src="assets/image/home-page/wold_icon.png" alt="world" class="utility-icon" />
+            <span>United States</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIMARY NAV -->
+    <header class="main-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#hero">
+            <img src="assets/image/home-page/logo.png" alt="Invoice Minds" height="46" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+            aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ms-auto  mb-3 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#why">Why
+                  Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#serve">Who We
+                  Serve</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#contact" class="btn-custom btn-outline">Talk to an
+                Expert</a>
+              <a href="#contact" class="btn-custom btn-solid">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row g-5 align-items-center justify-content-center text-center">
+            <div class="col-lg-10">
+
+              <h1 class="hero-h1">
+                Smart Accounting & Financial Solutions for
+              </h1>
+              <h1 class="hero-h-blue-bold">Business Growth</h1>
+
+              <p class="hero-dec my-38">
+                We manage your full finance workflow — bookkeeping,
+                accounting, reporting, analytics, and CFO guidance — so you
+                can focus on growth. Talk to our experts to see how smarter
+                accounting can save you time and reduce costs.
+              </p>
+
+              <div class="d-flex flex-wrap gap-3 mt-4 justify-content-center">
+                <a href="#contact" class="btn-custom btn-solid">Schedule a
+                  Free Consultation <img src="./assets/image/home-page/icon-right.png"></a>
+                <a href="#services" class="btn-custom btn-view-services">View
+                  Services <img src="./assets/image/home-page/icon-right.png"></a>
+              </div>
+              <div class="d-flex align-items-center justify-content-center gap-2 my-70">
+                <img src="assets/image/home-page/trusted.png" alt="phone" class="utility-icon" />
+                <p class="hero-trust">
+                  Trusted by U.S. businesses for accurate, reliable, and
+                  scalable finance support.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex align-items-center  hero-pills g-3">
+            <div class="col-md-4 my-4 pill-border-right">
+              <div class="pill">
+                <img src="assets/image/home-page/accounting.png" alt="financial" class="pill-img" />
+                <p class="pill-text">
+                  Accounting<br>
+                  & Compliance
+              </div>
+            </div>
+            <div class="col-md-4 my-4 pill-border-right">
+              <div class="pill">
+                <img src="assets/image/home-page/financial.png" alt="financial" class="pill-img" />
+                <p class="pill-text">
+                  Financial Reporting<br> & Analytics
+              </div>
+            </div>
+            <div class="col-md-4 my-4">
+              <div class="pill">
+                <img src="assets/image/home-page/cfo.png" alt="financial" class="pill-img" />
+                <p class="pill-text">
+                  CFO<br>
+                  & Strategy Support
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- PRIMARY NAV -->
-      <header class="main-header">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand" href="#hero">
-              <img src="assets/image/logo.png" alt="Invoice Minds"
-                height="46" />
-            </a>
-            <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse" data-bs-target="#mainMenu"
-              aria-controls="mainMenu" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-              <ul class="navbar-nav ms-auto me-lg-4 mb-3 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active"
-                    href="#hero">Home</a></li>
-                <li class="nav-item"><a class="nav-link"
-                    href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#why">Why
-                    Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#serve">Who We
-                    Serve</a></li>
-                <li class="nav-item"><a class="nav-link"
-                    href="#contact">Contact</a></li>
-              </ul>
-              <div class="d-flex flex-wrap gap-2">
-                <a href="#contact" class="btn-custom btn-outline">Talk to an
-                  Expert</a>
-                <a href="#contact" class="btn-custom btn-solid">Get Started</a>
-              </div>
+      <!-- EXPERTISE -->
+      <section class="expertise" id="services">
+        <div class="container">
+          <div class="text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center">
+              <h2 class="sec-2">Excellence Through <span class="sec-2-bold-blue">Expertise</span></h2>
             </div>
+            <p class="eyebrow">We deliver exceptional results through
+              deep expertise, innovation, and unwavering
+              commitment to your success.</p>
           </div>
-        </nav>
-      </header>
+          <div class="row g-4">
+            <div class="col-sm-12 col-lg-6 align-content-stretch d-flex">
 
-      <main>
-        <!-- HERO -->
-        <section class="hero" id="hero">
-          <div class="container">
-            <div
-              class="row g-5 align-items-center justify-content-center text-center">
-              <div class="col-lg-10">
-
-                <h1 class="hero-h1">
-                  Smart Accounting & Financial Solutions for
-                </h1>
-                <h1 class="hero-h-blue-bold">Business Growth</h1>
-
-                <p class="hero-dec my-38">
-                  We manage your full finance workflow — bookkeeping,
-                  accounting, reporting, analytics, and CFO guidance — so you
-                  can focus on growth. Talk to our experts to see how smarter
-                  accounting can save you time and reduce costs.
-                </p>
-
-                <div class="d-flex flex-wrap gap-3 mt-4 justify-content-center">
-                  <a href="#contact" class="btn-custom btn-solid">Schedule a
-                    Free Consultation <img
-                      src="./assets/image/icon-right.png"></a>
-                  <a href="#services" class="btn-custom btn-view-services">View
-                    Services <img src="./assets/image/icon-right.png"></a>
+              <article class="service-card card-yellow">
+                <div class="card-top">
+                  <div class="icon-square bg-yellow"><img src="assets/image/home-page/payables.png" /></div>
+                  <h5 class="sec-2-heading mt-30">Payments
+                    Management</h5>
+                  <p class="sec-2-dec mt-16">Efficient handling of
+                    vendor bills and payments for
+                    smooth
+                    operations.</p>
                 </div>
-                <div
-                  class="d-flex align-items-center justify-content-center gap-2 my-70">
-                  <img src="assets/image/trusted.png" alt="phone"
-                    class="utility-icon" />
-                  <p class="hero-trust">
-                    Trusted by U.S. businesses for accurate, reliable, and
-                    scalable finance support.
+                <div class="card-footer mt-30 d-flex align-items-center justify-content-between">
+                  <a href="#">Optimize Your Payments</a>
+                  <a href="#" class="card-footer-btn"><img src="./assets/image/home-page/icon-right.png"></a>
+                </div>
+
+              </article>
+            </div>
+            <div class="col-sm-12 col-lg-6 align-content-stretch d-flex">
+              <article class="service-card card-blue">
+                <div class="card-top">
+                  <div class="icon-square bg-sky-blue"><img src="assets/image/home-page/bookkeeping.png" /></div>
+                  <h5 class="sec-2-heading mt-30">Bookkeeping & Monthly
+                    Close</h5>
+                  <p class="sec-2-dec mt-16">Accurate, organized books
+                    with a reliable month-end close.</p>
+                </div>
+                <div class="card-footer mt-30 d-flex align-items-center justify-content-between">
+                  <a href="#">View Bookkeeping Services</a>
+                  <a href="#" class="card-footer-btn"><img src="./assets/image/home-page/icon-right.png"></a>
+                </div>
+
+              </article>
+            </div>
+            <div class="col-sm-12 col-lg-6 align-content-stretch d-flex">
+              <article class="service-card card-pink">
+                <div class="card-top">
+                  <div class="icon-square bg-sky-pink"><img src="assets/image/home-page/accounting-compliance.png" />
+                  </div>
+                  <h5 class="sec-2-heading mt-30">Accounting & GAAP
+                    Compliance</h5>
+                  <p class="sec-2-dec mt-16">Complete accounting support
+                    to keep your finances accurate and compliant.
                   </p>
                 </div>
+                <div class="card-footer mt-30 d-flex align-items-center justify-content-between">
+                  <a href="#">Explore Accounting</a>
+                  <a href="#" class="card-footer-btn"><img src="./assets/image/home-page/icon-right.png"></a>
+                </div>
+
+              </article>
+            </div>
+            <div class="col-sm-12 col-lg-6 align-content-stretch d-flex">
+              <article class="service-card card-perpal">
+                <div class="card-top">
+                  <div class="icon-square bg-sky-perpol"><img src="assets/image/home-page/financial-reporting.png" />
+                  </div>
+                  <h5 class="sec-2-heading mt-30">Financial Reporting &
+                    Analytics</h5>
+                  <p class="sec-2-dec mt-16">Clear reports and insights
+                    to help you make smarter decisions.</p>
+                </div>
+                <div class="card-footer mt-30 d-flex align-items-center justify-content-between">
+                  <a href="#">See Reporting Solutions</a>
+                  <a href="#" class="card-footer-btn"><img src="./assets/image/home-page/icon-right.png"></a>
+                </div>
+
+              </article>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <a href="#services" class="btn-custom btn-solid">View All
+              Services<img src="./assets/image/home-page/icon-right.png"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-section">
+        <div class="container">
+          <h2 class="sec-2">Why Businesses Choose</h2>
+          <span class="sec-2-bold-blue">Invoice Minds</span>
+
+          <div class="features">
+            <div class="feature-box feature-box-1">
+              <img src="./assets/image/home-page/built.png">
+              <p>Built for US Businesses</p>
+            </div>
+
+            <div class="feature-box feature-box-2">
+              <img src="./assets/image/home-page/process-driven.png">
+              <p>Process-Driven Accuracy</p>
+            </div>
+
+            <div class="feature-box feature-box-3">
+              <img src="./assets/image/home-page/smart-automation.png">
+              <p>Smart Automation & Tools</p>
+            </div>
+
+            <div class="feature-box feature-box-4">
+              <img src="./assets/image/home-page/scalable-support.png">
+              <p>Scalable Support</p>
+            </div>
+
+            <div class="feature-box feature-box-1">
+              <img src="./assets/image/home-page/transparent.png">
+              <p>Transparent & Simple</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="who-serve-section">
+        <div class="container text-center">
+
+          <h2 class="sec-2 mb-4">
+            Who <span class="sec-2-bold-blue">We Serve</span>
+          </h2>
+
+          <p class="eyebrow mb-80">
+            We specialize exclusively in supporting cannabis businesses
+            across the United States. From dispensaries
+            and cultivation facilities to multi–location operators, we
+            deliver accounting and financial reporting
+            tailored
+            to the unique requirements of the cannabis industry, and our
+            framework also adapts seamlessly to other
+            highly regulated industries.
+          </p>
+
+          <div class="cards-wrapper"> <!-- IMPORTANT WRAPPER -->
+
+            <div class="row g-5 justify-content-center">
+
+              <!-- Card 1 -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="serve-card card-blue-serve">
+                  <div class="serve-tab tab-blue">Dispensaries</div>
+                  <div class="serve-body f-1">
+                    Accounting, cash controls, daily sales reporting,
+                    and COGS guidance.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="serve-card card-yellow-serve">
+                  <div class="serve-tab tab-yellow">Cultivation & Grow
+                    Facilities</div>
+                  <div class="serve-body f-2">
+                    Cost tracking, inventory controls, and production
+                    analysis.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="serve-card card-red-serve">
+                  <div class="serve-tab tab-red">Multi–Location
+                    Operators (MSOs)</div>
+                  <div class="serve-body f-3">
+                    Consolidated reporting, compliance-focused
+                    workflows, and standardized processes.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div> <!-- cards-wrapper end -->
+        </div>
+
+      </section>
+
+      <section class="how-desktop">
+        <div class="container">
+
+          <h2 class="sec-2 mb-4 text-center">
+            How <span class="sec-2-bold-blue">We Work</span>
+          </h2>
+
+          <div class="how-steps">
+
+            <!-- STEP 1 -->
+            <div class="step">
+              <div class="step-icon">
+                <img src="assets/image/home-page/discovery-call.png">
+              </div>
+              <div class="step-title">Discovery Call</div>
+              <div class="step-desc">
+                We understand your business, tools, workflows, and
+                challenges.
               </div>
             </div>
 
-            <div class="row d-flex align-items-center  hero-pills g-3">
-              <div class="col-md-4 my-4 pill-border-right">
-                <div class="pill">
-                  <img src="assets/image/accounting.png" alt="financial"
-                    class="pill-img" />
-                  <p class="pill-text">
-                    Accounting<br>
-                    & Compliance
-                  </div>
-                </div>
-                <div class="col-md-4 my-4 pill-border-right">
-                  <div class="pill">
-                    <img src="assets/image/financial.png" alt="financial"
-                      class="pill-img" />
-                    <p class="pill-text">
-                      Financial Reporting<br> & Analytics
-                    </div>
-                  </div>
-                  <div class="col-md-4 my-4">
-                    <div class="pill">
-                      <img src="assets/image/cfo.png" alt="financial"
-                        class="pill-img" />
-                      <p class="pill-text">
-                        CFO<br>
-                        & Strategy Support
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-              <!-- EXPERTISE -->
-              <section class="expertise" id="services">
-                <div class="container">
-                  <div class="text-center mb-5">
-                    <div
-                      class="d-flex align-items-center justify-content-center">
-                      <h2 class="sec-2">Excellence Through <span
-                          class="sec-2-bold-blue">Expertise</span></h2>
-                    </div>
-                    <p class="eyebrow">We deliver exceptional results through
-                      deep expertise, innovation, and unwavering
-                      commitment to your success.</p>
-                  </div>
-                  <div class="row g-4">
-                    <div
-                      class="col-sm-12 col-lg-6 align-content-stretch d-flex">
-
-                      <article class="service-card card-yellow">
-                        <div class="card-top">
-                          <div class="icon-square bg-yellow"><img
-                              src="assets/image/payables.png" /></div>
-                          <h5 class="sec-2-heading mt-30">Payments
-                            Management</h5>
-                          <p class="sec-2-dec mt-16">Efficient handling of
-                            vendor bills and payments for
-                            smooth
-                            operations.</p>
-                        </div>
-                        <div
-                          class="card-footer mt-30 d-flex align-items-center justify-content-between">
-                          <a href="#">Optimize Your Payments</a>
-                          <a href="#" class="card-footer-btn"><img
-                              src="./assets/image/icon-right.png"></a>
-                        </div>
-
-                      </article>
-                    </div>
-                    <div
-                      class="col-sm-12 col-lg-6 align-content-stretch d-flex">
-                      <article class="service-card card-blue">
-                        <div class="card-top">
-                          <div class="icon-square bg-sky-blue"><img
-                              src="assets/image/bookkeeping.png" /></div>
-                          <h5 class="sec-2-heading mt-30">Bookkeeping & Monthly
-                            Close</h5>
-                          <p class="sec-2-dec mt-16">Accurate, organized books
-                            with a reliable month-end close.</p>
-                        </div>
-                        <div
-                          class="card-footer mt-30 d-flex align-items-center justify-content-between">
-                          <a href="#">View Bookkeeping Services</a>
-                          <a href="#" class="card-footer-btn"><img
-                              src="./assets/image/icon-right.png"></a>
-                        </div>
-
-                      </article>
-                    </div>
-                    <div
-                      class="col-sm-12 col-lg-6 align-content-stretch d-flex">
-                      <article class="service-card card-pink">
-                        <div class="card-top">
-                          <div class="icon-square bg-sky-pink"><img
-                              src="assets/image/accounting-compliance.png" /></div>
-                          <h5 class="sec-2-heading mt-30">Accounting & GAAP
-                            Compliance</h5>
-                          <p class="sec-2-dec mt-16">Complete accounting support
-                            to keep your finances accurate and compliant.
-                          </p>
-                        </div>
-                        <div
-                          class="card-footer mt-30 d-flex align-items-center justify-content-between">
-                          <a href="#">Explore Accounting</a>
-                          <a href="#" class="card-footer-btn"><img
-                              src="./assets/image/icon-right.png"></a>
-                        </div>
-
-                      </article>
-                    </div>
-                    <div
-                      class="col-sm-12 col-lg-6 align-content-stretch d-flex">
-                      <article class="service-card card-perpal">
-                        <div class="card-top">
-                          <div class="icon-square bg-sky-perpol"><img
-                              src="assets/image/financial-reporting.png" /></div>
-                          <h5 class="sec-2-heading mt-30">Financial Reporting &
-                            Analytics</h5>
-                          <p class="sec-2-dec mt-16">Clear reports and insights
-                            to help you make smarter decisions.</p>
-                        </div>
-                        <div
-                          class="card-footer mt-30 d-flex align-items-center justify-content-between">
-                          <a href="#">See Reporting Solutions</a>
-                          <a href="#" class="card-footer-btn"><img
-                              src="./assets/image/icon-right.png"></a>
-                        </div>
-
-                      </article>
-                    </div>
-                  </div>
-                  <div class="text-center mt-5">
-                    <a href="#services" class="btn-custom btn-solid">View All
-                      Services<img src="./assets/image/icon-right.png"></a>
-                  </div>
-                </div>
-              </section>
-
-              <section class="why-section">
-                <div class="container">
-                  <h2 class="sec-2">Why Businesses Choose</h2>
-                  <span class="sec-2-bold-blue">Invoice Minds</span>
-
-                  <div class="features">
-                    <div class="feature-box feature-box-1">
-                      <img src="./assets/image/built.png">
-                      <p>Built for US Businesses</p>
-                    </div>
-
-                    <div class="feature-box feature-box-2">
-                      <img src="./assets/image/process-driven.png">
-                      <p>Process-Driven Accuracy</p>
-                    </div>
-
-                    <div class="feature-box feature-box-3">
-                      <img src="./assets/image/smart-automation.png">
-                      <p>Smart Automation & Tools</p>
-                    </div>
-
-                    <div class="feature-box feature-box-4">
-                      <img src="./assets/image/scalable-support.png">
-                      <p>Scalable Support</p>
-                    </div>
-
-                    <div class="feature-box feature-box-1">
-                      <img src="./assets/image/transparent.png">
-                      <p>Transparent & Simple</p>
-                    </div>
-                  </div>
-                </div>
-
-              </section>
-
-              <section class="who-serve-section">
-                <div class="container text-center">
-
-                  <h2 class="sec-2 mb-4">
-                    Who <span class="sec-2-bold-blue">We Serve</span>
-                  </h2>
-
-                  <p class="eyebrow mb-80">
-                    We specialize exclusively in supporting cannabis businesses
-                    across the United States. From dispensaries
-                    and cultivation facilities to multi–location operators, we
-                    deliver accounting and financial reporting
-                    tailored
-                    to the unique requirements of the cannabis industry, and our
-                    framework also adapts seamlessly to other
-                    highly regulated industries.
-                  </p>
-
-                  <div class="cards-wrapper"> <!-- IMPORTANT WRAPPER -->
-
-                    <div class="row g-5 justify-content-center">
-
-                      <!-- Card 1 -->
-                      <div class="col-lg-4 col-md-6 col-12">
-                        <div class="serve-card card-blue-serve">
-                          <div class="serve-tab tab-blue">Dispensaries</div>
-                          <div class="serve-body f-1">
-                            Accounting, cash controls, daily sales reporting,
-                            and COGS guidance.
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- Card 2 -->
-                      <div class="col-lg-4 col-md-6 col-12">
-                        <div class="serve-card card-yellow-serve">
-                          <div class="serve-tab tab-yellow">Cultivation & Grow
-                            Facilities</div>
-                          <div class="serve-body f-2">
-                            Cost tracking, inventory controls, and production
-                            analysis.
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- Card 3 -->
-                      <div class="col-lg-4 col-md-6 col-12">
-                        <div class="serve-card card-red-serve">
-                          <div class="serve-tab tab-red">Multi–Location
-                            Operators (MSOs)</div>
-                          <div class="serve-body f-3">
-                            Consolidated reporting, compliance-focused
-                            workflows, and standardized processes.
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div> <!-- cards-wrapper end -->
-                </div>
-
-              </section>
-
-              <section class="how-desktop">
-                <div class="container">
-
-                  <h2 class="sec-2 mb-4 text-center">
-                    How <span class="sec-2-bold-blue">We Work</span>
-                  </h2>
-
-                  <div class="how-steps">
-
-                    <!-- STEP 1 -->
-                    <div class="step">
-                      <div class="step-icon">
-                        <img src="assets/image/discovery-call.png">
-                      </div>
-                      <div class="step-title">Discovery Call</div>
-                      <div class="step-desc">
-                        We understand your business, tools, workflows, and
-                        challenges.
-                      </div>
-                    </div>
-
-                    <!-- STEP 2 -->
-                    <div class="step">
-                      <div class="step-icon">
-                        <img src="assets/image/setup-onboarding.png">
-                      </div>
-                      <div class="step-title">Setup & Onboarding</div>
-                      <div class="step-desc">
-                        We connect accounting systems, define processes, and
-                        assign your dedicated team.
-                      </div>
-                    </div>
-
-                    <!-- STEP 3 -->
-                    <div class="step">
-                      <div class="step-icon">
-                        <img src="assets/image/ongoing-accounting.png">
-                      </div>
-                      <div class="step-title">Ongoing Accounting</div>
-                      <div class="step-desc">
-                        We manage bookkeeping, reconciliations, reporting, and
-                        compliance every month.
-                      </div>
-                    </div>
-
-                    <!-- STEP 4 -->
-                    <div class="step">
-                      <div class="step-icon">
-                        <img src="assets/image/review-strategy.png">
-                      </div>
-                      <div class="step-title">Review & Strategy</div>
-                      <div class="step-desc">
-                        We review performance and provide insights to optimize
-                        cash flow and profitability.
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-              </section>
-
-              <section class="how-mobile">
-
-                <h2 class="sec-2 mb-4 text-center">
-                    How <span class="sec-2-bold-blue">We Work</span>
-                  </h2>
-                <!-- STEP 1 -->
-                <div class="mob-step">
-                  <div class="mob-center-line">
-                    <div class="mob-icon-box">
-                      <img src="assets/image/discovery-call.png">
-                    </div>
-                    <div class="mob-line"></div>
-                  </div>
-                  <div class="mob-text">
-                    <h4>Discovery Call</h4>
-                    <p>We understand your business, tools, workflows, and
-                      challenges.</p>
-                  </div>
-                </div>
-
-                <!-- STEP 2 -->
-                <div class="mob-step">
-                  <div class="mob-center-line">
-                    <div class="mob-icon-box">
-                      <img src="assets/image/setup-onboarding.png">
-                    </div>
-                    <div class="mob-line"></div>
-                  </div>
-                  <div class="mob-text">
-                    <h4>Setup & Onboarding</h4>
-                    <p>We connect accounting systems, define processes, and
-                      assign your dedicated team.</p>
-                  </div>
-                </div>
-
-                <!-- STEP 3 -->
-                <div class="mob-step">
-                  <div class="mob-center-line">
-                    <div class="mob-icon-box">
-                      <img src="assets/image/ongoing-accounting.png">
-                    </div>
-                    <div class="mob-line"></div>
-                  </div>
-                  <div class="mob-text">
-                    <h4>Ongoing Accounting</h4>
-                    <p>We manage bookkeeping, reconciliations, reporting, and
-                      compliance every month.</p>
-                  </div>
-                </div>
-
-                <!-- STEP 4 -->
-                <div class="mob-step">
-                  <div class="mob-center-line">
-                    <div class="mob-icon-box">
-                      <img src="assets/image/review-strategy.png">
-                    </div>
-                  </div>
-                  <div class="mob-text">
-                    <h4>Review & Strategy</h4>
-                    <p>We review performance and provide insights to optimize
-                      cash flow and profitability.</p>
-                  </div>
-                </div>
-
-              </section>
-
-            </main>
-
-            <!-- PARTNERS -->
-            <section class="partners">
-              <div class="container">
-                <p class="text-uppercase text-muted mb-3">Supported Technology
-                  Partners</p>
-                <div class="logos">
-                  <span>QuickBooks</span>
-                  <span>Apex</span>
-                  <span>Leaflink</span>
-                  <span>Metrc</span>
-                  <span>Dutchie</span>
-                  <span>Canix</span>
-                  <span>Push</span>
-                </div>
+            <!-- STEP 2 -->
+            <div class="step">
+              <div class="step-icon">
+                <img src="assets/image/home-page/setup-onboarding.png">
               </div>
-            </section>
-
-            <!-- FOOTER -->
-            <footer class="site-footer text-white">
-              <div class="container">
-                <div class="row g-4">
-                  <div class="col-md-4">
-                    <img src="assets/image/logo.png" alt="Invoice Minds"
-                      height="40" class="mb-3" />
-                    <p>Smart accounting solutions for cannabis operators,
-                      tailored to
-                      deliver clarity, compliance, and confident growth.</p>
-                  </div>
-                  <div class="col-md-4">
-                    <h6>Quick Links</h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#hero">Home</a></li>
-                      <li><a href="#services">Services</a></li>
-                      <li><a href="#serve">Who We Serve</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-md-4">
-                    <h6>Legal</h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms of Service</a></li>
-                      <li><a href="#">Cookie Policy</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="footer-bottom">
-                  <p class="mb-0"> 2025 Invoice Minds. All rights reserved.</p>
-                </div>
+              <div class="step-title">Setup & Onboarding</div>
+              <div class="step-desc">
+                We connect accounting systems, define processes, and
+                assign your dedicated team.
               </div>
-            </footer>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="step">
+              <div class="step-icon">
+                <img src="assets/image/home-page/ongoing-accounting.png">
+              </div>
+              <div class="step-title">Ongoing Accounting</div>
+              <div class="step-desc">
+                We manage bookkeeping, reconciliations, reporting, and
+                compliance every month.
+              </div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="step">
+              <div class="step-icon">
+                <img src="assets/image/home-page/review-strategy.png">
+              </div>
+              <div class="step-title">Review & Strategy</div>
+              <div class="step-desc">
+                We review performance and provide insights to optimize
+                cash flow and profitability.
+              </div>
+            </div>
+
           </div>
 
-          <script
-            src="./assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-          <script src="./assets/js/script.js"></script>
-        </body>
+        </div>
+      </section>
 
-      </html>
+      <section class="how-mobile">
+<div class="container">
+        <h2 class="sec-2 mb-4 text-center">
+          How <span class="sec-2-bold-blue">We Work</span>
+        </h2>
+        <!-- STEP 1 -->
+        <div class="mob-step">
+          <div class="mob-center-line">
+            <div class="mob-icon-box">
+              <img src="assets/image/home-page/discovery-call.png">
+            </div>
+            <div class="mob-line"></div>
+          </div>
+          <div class="mob-text">
+            <h4>Discovery Call</h4>
+            <p>We understand your business, tools, workflows, and
+              challenges.</p>
+          </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="mob-step">
+          <div class="mob-center-line">
+            <div class="mob-icon-box">
+              <img src="assets/image/home-page/setup-onboarding.png">
+            </div>
+            <div class="mob-line"></div>
+          </div>
+          <div class="mob-text">
+            <h4>Setup & Onboarding</h4>
+            <p>We connect accounting systems, define processes, and
+              assign your dedicated team.</p>
+          </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="mob-step">
+          <div class="mob-center-line">
+            <div class="mob-icon-box">
+              <img src="assets/image/home-page/ongoing-accounting.png">
+            </div>
+            <div class="mob-line"></div>
+          </div>
+          <div class="mob-text">
+            <h4>Ongoing Accounting</h4>
+            <p>We manage bookkeeping, reconciliations, reporting, and
+              compliance every month.</p>
+          </div>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="mob-step">
+          <div class="mob-center-line">
+            <div class="mob-icon-box">
+              <img src="assets/image/home-page/review-strategy.png">
+            </div>
+          </div>
+          <div class="mob-text">
+            <h4>Review & Strategy</h4>
+            <p>We review performance and provide insights to optimize
+              cash flow and profitability.</p>
+          </div>
+        </div>
+</div>
+      </section>
+
+
+
+
+      <section class="cta-sec d-flex align-items-center text-center">
+        <div class="container">
+
+          <h2 class="cta-title">
+            Ready to simplify <span>your accounting?</span>
+          </h2>
+
+          <p class="cta-subtitle mx-auto mt-24">
+            Let’s discuss how our accounting team can help streamline your
+            finances and support your long-term growth.
+          </p>
+
+          <a href="#" class="btn-custom btn-solid mt-60">
+            Schedule a Free Consultation
+            <img src="./assets/image/home-page/icon-right.png">
+          </a>
+
+        </div>
+      </section>
+
+
+
+      <section class="contact-sec">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <!-- LEFT TEXT SECTION -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h2 class="sec-2">Let’s Start <br><span class="sec-2-bold-blue">a Conversation</span></h2>
+
+              <p class="contact-sub">
+                Ready to transform your financial operations? Contact us today to
+                schedule a consultation and discover how Invoice Minds can help
+                your business thrive.
+              </p>
+              <div class="d-flex-tab">
+                <!-- Phone -->
+                <div class="d-flex align-items-start contact-detail mb-4 justify-center-cus">
+                  <div class="icon-box me-3">
+                    <img src="./assets/image/home-page/phon_icon.png" alt="">
+                  </div>
+                  <div>
+                    <h5 class="detail-title">Phone</h5>
+                    <p class="detail-text">+1 (573) 340-1245</p>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="d-flex align-items-start contact-detail justify-center-cus">
+                  <div class="icon-box me-3">
+                    <img src="./assets/image/home-page/mail_icon.png" alt="">
+                  </div>
+                  <div>
+                    <h5 class="detail-title">Email</h5>
+                    <p class="detail-text">info@invoiceminds.com</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <!-- RIGHT FORM -->
+            <div class="col-lg-6">
+              <div class="contact-form-box p-4 p-md-5">
+
+                <h3 class="form-title">Send Us a Message</h3>
+                <p class="form-sub">Fill out the form and we’ll get back to you within 24 hours.</p>
+
+                <form>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <label class="form-label">Name *</label>
+                      <input type="text" class="form-control" placeholder="John">
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                      <label class="form-label">Email Address *</label>
+                      <input type="email" class="form-control" placeholder="john@company.com">
+                    </div>
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" placeholder="+1 (555) 000-0000">
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="form-label">Message *</label>
+                    <textarea class="form-control" rows="4" placeholder="Tell us about your needs..."></textarea>
+                  </div>
+                  <a href="#contact" class="btn-custom btn-solid w-100"> Send Message<img
+                      src="./assets/image/home-page/icon-right.png"></a>
+
+
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<section class="partners-sec py-4">
+  <div class="container">
+
+    <div class="row align-items-center">
+      
+      <!-- LEFT TEXT -->
+      <div class="col-lg-3 col-md-4 mb-3 mb-md-0 d-flex align-items-center">
+        <div>
+          <h4 class="partners-title">Supported<br>Technology Partners</h4>
+        </div>
+
+        <div class="divider"></div>
+      </div>
+
+      <!-- RIGHT LOGO SLIDER -->
+      <div class="col-lg-9 col-md-8">
+        <div class="logo-slider">
+          <div class="logo-track">
+
+            <img src="assets/image/home-page/image 1.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 2.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 3.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 4.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 5.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 6.png" class="partner-logo" alt="">
+
+            <!-- Duplicate for infinite loop -->
+            <img src="assets/image/home-page/image 1.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 2.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 3.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 4.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 5.png" class="partner-logo" alt="">
+            <img src="assets/image/home-page/image 6.png" class="partner-logo" alt="">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+<footer class="footer-sec py-5">
+  <div class="container">
+
+    <div class="row">
+
+      <!-- LEFT BRAND + TEXT -->
+      <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+        <img src="assets/image/home-page/logo-light.png" class="footer-logo mb-3" alt="Invoice Minds">
+
+        <p class="footer-desc">
+          Invoice Minds provides expert accounting, taxation, 
+          financial reporting, and business consultancy services 
+          for growing businesses.
+        </p>
+      </div>
+
+      <!-- QUICK LINKS -->
+      <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+        <h5 class="footer-title">Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- LEGAL LINKS -->
+      <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+        <h5 class="footer-title">Legal</h5>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM COPYRIGHT -->
+    <div class="footer-bottom mt-5 pt-4 text-center">
+      © 2025 Invoiceminds. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+
+  <script src="./assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
