@@ -1116,7 +1116,7 @@ section {
   }
 
   .btn-custom {
-    width: 100%;
+    width: fit-content;
     justify-content: center;
     padding: 10px 14px;
     font-size: 15px;
