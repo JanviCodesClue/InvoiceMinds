@@ -526,7 +526,7 @@ section {
 
 /* Body text */
 .serve-body {
-  font-size: 16-px;
+  font-size: 16px;
   color: #3a3a3a;
   line-height: 1.55;
 }
@@ -549,10 +549,14 @@ section {
   position: absolute;
   top: -22px;
   left: 25px;
-  padding: 8px 18px;
+  padding: 8px 10px;
   font-size: 16px;
   font-weight: 600;
   border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 /* Blue Card */
@@ -589,9 +593,7 @@ section {
 }
 
 
-.how-title span {
-  color: #0d5ace;
-}
+
 
 .how-desktop {
   padding: 120px 0;

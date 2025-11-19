@@ -13,12 +13,14 @@
      background: linear-gradient(to right, #002f74, #0061B3);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+      max-width: 60%;
  }
 
  .updated-text {
      font-size: 24px;
      color: #1B1D21;
      margin-top: 10px;
+     max-width: 70%;
  }
 
  /* POLICY CARD */
@@ -89,6 +91,7 @@
      background: linear-gradient(to right, #002f74, #0061B3);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+      max-width: 100%;
  }
 
      .policy-card {
@@ -104,6 +107,12 @@
 .my-120{
     margin: 80px 0;
 }
+ .updated-text {
+     font-size: 22px;
+     color: #1B1D21;
+     margin-top: 10px;
+      max-width: 100%;
+ }
  }
 
 
@@ -114,6 +123,7 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     padding: 50px 0;
+    
 }
 
 
@@ -123,6 +133,7 @@
      background: linear-gradient(to right, #002f74, #0061B3);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+      max-width: 100%;
  }
 
      .policy-card {
@@ -162,5 +173,6 @@
      font-size: 20px;
      color: #1B1D21;
      margin-top: 10px;
+      max-width: 100%;
  }
  }
