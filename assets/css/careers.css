@@ -12,10 +12,9 @@
    TITLES (Home-page style)
 --------------------------------------- */
 .career-title {
-    font-size: 52px;
+    font-size: 55px;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 52px;
     color: #0c1c3c;
 }
 
@@ -36,52 +35,98 @@
     background: #fff;
 }
 
-.career-why-grid {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 50px;
-}
 
 .career-why-item {
-    width: 240px;
     text-align: center;
 }
 
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
 .career-why-num {
-    width: 58px;
-    height: 58px;
+    width: 75px;
+    height: 75px;
     border-radius: 12px;
-    background: #e8f4ff;
+    background: #ECFAFE;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0d5ace;
-    font-weight: 600;
-    font-size: 18px;
+    color: #1A1C20;
+    font-weight: 300;
+    font-size: 24px;
     margin: auto;
-    box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.05);
+    border: 1px solid #C5F1FC;
 }
 
 .career-why-item h4 {
-    margin-top: 18px;
-    font-size: 20px;
+    margin-top: 24px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .career-why-item p {
-    font-size: 15px;
-    margin-top: 6px;
-    color: #5b6473;
+    font-size: 18px;
+    margin-top: 16px;
+    color: #4A5565;
 }
 
+@media (max-width: 991px) {
+    .mt-60-md {
+        margin-top: 40px;
+    }
+    .career-why-num {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    background: #ECFAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1C20;
+    font-weight: 300;
+    font-size: 22px;
+    margin: auto;
+    border: 1px solid #C5F1FC;
+}
+
+.career-why-item h4 {
+    margin-top: 24px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.career-why-item p {
+    font-size: 16px;
+    margin-top: 16px;
+    color: #4A5565;
+}
+}
+
+@media (max-width: 767px) {
+    .mt-60-md {
+        margin-top: 40px;
+    }
+
+    .mt-40-sm {
+        margin-top: 40px;
+    }
+}
 
 
 /* --------------------------------------
    OPEN POSITIONS — PERFECT MATCH
 --------------------------------------- */
 .career-positions {
-    padding: 110px 0 130px;
+    padding: 120px 0;
     background: linear-gradient(to bottom, #f1f9ff, #e6f3ff);
 }
 
@@ -91,45 +136,48 @@
     border-radius: 14px;
     border: 1px solid #e6edf7;
     margin-bottom: 30px;
-    box-shadow: 0 12px 28px rgba(15, 32, 75, 0.08);
 }
 
-/* Top row of heading + button */
-.career-card-header {
-    margin-bottom: 18px;
-}
-
+/* Title and badge */
 .career-card h4 {
-    font-size: 22px;
+    color: #005EB1;
+    font-size: 24px;
     font-weight: 700;
     margin: 0;
 }
 
 .career-badge {
-    background: #e2eeff;
-    color: #0d5ace;
-    padding: 3px 10px;
+    background: #0891B2;
+    color: #fff;
+    padding: 5px 10px;
     border-radius: 20px;
     font-size: 12px;
     margin-left: 10px;
 }
 
 .career-meta {
-    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
     color: #5b6473;
-    margin-top: 8px;
+    margin-top: 15px;
 }
-
 .career-desc {
-    font-size: 15px;
+    font-size: 18px;
     color: #3a3a3a;
     line-height: 1.55;
-    margin-bottom: 16px;
+    margin: 24px 0 16px 0;
+}
+.career-meta img {
+    width: 16px;
+    height: 16px;
 }
 
-/* BUTTON TOP RIGHT */
+
+
+/* Button */
 .career-btn-view {
-    background: #0d5ace;
+    background-image: linear-gradient(90deg, #014b8c 0%, #0f8cd5 100%);
     padding: 11px 24px;
     border-radius: 10px;
     color: #fff;
@@ -139,22 +187,17 @@
     box-shadow: 0 4px 12px rgba(0, 92, 255, 0.25);
 }
 
-@media (max-width: 768px) {
-
-    .career-card {
-        padding: 26px 20px;
-    }
-
-    .career-card-header {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .career-btn-view {
-        width: 100%;
-        text-align: center;
-    }
+/* -------------------------------
+   RESPONSIVE (NO DESIGN CHANGE)
+--------------------------------*/
+.career-card .row {
+    flex-wrap: nowrap;
 }
+
+
+
+
+
 
 
 
@@ -172,7 +215,10 @@
 
 .career-core {
     padding: 120px 0;
-    background: linear-gradient(120deg, #00629c, #003b69);
+    background-image: url("../image/careers/our-value.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     color: #fff;
 }
@@ -184,14 +230,15 @@
 
 .core-value-title span {
     font-weight: 700;
-    color: #00c0ff;
+    background: linear-gradient(to right, #0891B2, #06B6D4, #00D3F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .core-value-sub {
-    font-size: 17px;
+    font-size: 18px;
     color: #dce8f4;
-    margin-top: 10px;
-    margin-bottom: 60px;
+    margin-top: 24px;
 }
 
 /* GRID SAME LIKE serve-box WRAPPER */
@@ -209,21 +256,21 @@
     padding: 50px 24px 24px 24px;
     background: rgba(255, 255, 255, 0.12);
     /* only difference */
-    border: 2px solid transparent;
+    border: 2px solid #468AAF;
     min-height: 160px;
     transition: 0.3s;
     text-align: left;
     backdrop-filter: blur(8px);
-    width: 315px;
+    width: 100%;
 }
 
 /* TOP TAB LIKE serve-tab */
 .core-tag {
     position: absolute;
     top: -22px;
-    left: 25px;
+    left: -17px;
     padding: 8px 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
     color: #0c1c3c;
@@ -231,7 +278,7 @@
 
 /* ONLY DIFFERENCE: COLORS */
 .core-tag.blue {
-    background: #ffffff;
+    background: #C0EFFC;
 }
 
 .core-tag.yellow {
@@ -244,7 +291,7 @@
 
 /* BODY TEXT SAME AS serve-body */
 .core-box p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.55;
     color: #eaf3ff;
 }
@@ -271,7 +318,8 @@
 
 /* DESKTOP STEPS */
 .career-how-desktop {
-    padding-top: 10px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .career-how-steps {
@@ -302,9 +350,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0d5ace;
-    font-size: 22px;
-    font-weight: 700;
+    color: #1A1C20;
+    font-size: 24px;
+    font-weight: 300;
     margin: 0 auto;
 }
 
@@ -327,7 +375,7 @@
 
 /* TITLES */
 .career-step-title {
-    margin-top: 22px;
+    margin-top: 24px;
     font-size: 20px;
     font-weight: 700;
     color: #0c1c3c;
@@ -343,19 +391,6 @@
 
 
 
-/* ================================
-   MOBILE VERSION
-================================ */
-@media (max-width: 991px) {
-    .career-how-desktop {
-        display: none;
-    }
-
-    .career-how-mobile {
-        display: block !important;
-        padding: 30px 0;
-    }
-}
 
 .career-how-mobile {
     display: none;
@@ -419,26 +454,32 @@
 .career-contact {
     padding: 120px 0;
     text-align: center;
-    background: linear-gradient(120deg, #052c60, #00214b, #081b33);
+    background-image: url("../image/careers/cta-section-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
 }
 
 .career-contact h2 {
-    font-size: 48px;
+    font-size: 55px;
     font-weight: 300;
 }
 
 .career-contact h2 span {
-    color: #00b4ff;
+    background: linear-gradient(to right, #0891B2, #06B6D4, #00D3F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
 
 .career-contact p {
-    font-size: 18px;
-    margin-top: 12px;
-    max-width: 540px;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 60px !important;
     margin-left: auto;
     margin-right: auto;
+    color: #E8E8F0;
 }
 
 .career-contact-btn {
@@ -454,15 +495,314 @@
 
 /* Center boxes on medium screens */
 @media (max-width: 992px) {
-    .core-box {
-        margin-left: auto;
-        margin-right: auto;
+  .core-box {
+    position: relative;
+    border-radius: 14px;
+    padding: 50px 24px 24px 24px;
+    background: rgba(255, 255, 255, 0.12);
+    /* only difference */
+    border: 2px solid #468AAF;
+    transition: 0.3s;
+    text-align: left;
+    backdrop-filter: blur(8px);
+    width: 100%;
+}
+.career-contact p {
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 60px !important;
+    margin-left: auto;
+    margin-right: auto;
+    color: #E8E8F0;
+}
+    .career-card .row {
+        flex-wrap: wrap !important;
+    }
+
+    /* Left + Right go full width */
+    .career-card .col-lg-9,
+    .career-card .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .career-btn-view {
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .career-how-desktop {
+        display: none;
+    }
+
+    .career-how-mobile {
+        display: block !important;
+        padding: 88px 0;
+    }
+
+
+
+    .career-why {
+    padding: 88px 0;
+    background: #fff;
+}
+.career-positions {
+    padding: 88px 0 90px;
+    background: linear-gradient(to bottom, #f1f9ff, #e6f3ff);
+}
+.career-core {
+    padding: 88px 0;
+    background-image: url(../image/careers/our-value.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.career-contact
+ {
+    padding: 88px 0;
+    text-align: center;
+    background-image: url(../image/careers/cta-section-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.career-title {
+    font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+    color: #0c1c3c;
+}
+.core-value-title {
+    font-size: 34px;
+    font-weight: 300;
+}
+.career-contact h2 {
+    font-size: 34px;
+    font-weight: 300;
+}
+.mb-60 {
+    margin-bottom: 40px;
+}
+.mt-80 {
+    margin-top: 50px;
+}
+.career-card h4 {
+    color: #005EB1;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+.career-badge {
+    background: #0891B2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.career-meta {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #5b6473;
+    margin-top: 15px;
+}
+.career-desc {
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 1.55;
+    margin: 24px 0 16px 0;
+}
+.core-value-sub {
+    font-size: 16px;
+    color: #dce8f4;
+    margin-top: 24px;
+}
+.core-box p {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #eaf3ff;
+}
+.core-tag {
+    position: absolute;
+    top: -22px;
+    left: -17px;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #0c1c3c;
+}
+}
+
+@media (max-width: 768px) {
+    .career-card {
+        padding: 26px 20px;
     }
 }
 
-/* Mobile full width */
 @media (max-width: 576px) {
+    .career-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+.career-contact p {
+    font-size:20px;
+    margin-top: 24px;
+    margin-bottom: 60px !important;
+    margin-left: auto;
+    margin-right: auto;
+    color: #E8E8F0;
+}
     .core-box {
         width: 100%;
     }
+
+    .core-tag {
+        position: absolute;
+        top: -22px;
+        left: 0px!important;
+        padding: 8px 10px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+           .career-how-mobile {
+        display: block !important;
+        padding: 66px 0;
+    }
+
+
+
+    .career-why {
+    padding: 66px 0;
+    background: #fff;
+}
+.career-positions {
+    padding: 66px 0 90px;
+    background: linear-gradient(to bottom, #f1f9ff, #e6f3ff);
+}
+.career-core {
+    padding: 66px 0;
+    background-image: url(../image/careers/our-value.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.career-contact
+ {
+    padding: 66px 0;
+    text-align: center;
+    background-image: url(../image/careers/cta-section-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.career-title {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #0c1c3c;
+}
+.core-value-title {
+    font-size: 30px;
+    font-weight: 300;
+}
+.career-contact h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.mb-60 {
+    margin-bottom: 30px;
+}
+.mt-80 {
+    margin-top: 50px;
+}
+.career-why-num {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    background: #ECFAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1C20;
+    font-weight: 300;
+    font-size: 20px;
+    margin: auto;
+    border: 1px solid #C5F1FC;
+}
+
+.career-why-item h4 {
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.career-why-item p {
+    font-size: 14px;
+    margin-top: 14px;
+    color: #4A5565;
+}
+.career-card h4 {
+    color: #005EB1;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+.career-badge {
+    background: #0891B2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.career-meta {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #5b6473;
+    margin-top: 15px;
+}
+.career-desc {
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 1.55;
+    margin: 24px 0 16px 0;
+}
+.core-value-sub {
+    font-size: 16px;
+    color: #dce8f4;
+    margin-top: 24px;
+}
+.core-box p {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #eaf3ff;
+}
+.core-tag {
+    position: absolute;
+    top: -22px;
+    left: -17px;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #0c1c3c;
+}
 }
