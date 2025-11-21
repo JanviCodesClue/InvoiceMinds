@@ -9,11 +9,11 @@
 
  .hero-title {
      font-size: 72px;
-     font-weight: 700;
+     font-weight: 600;
      background: linear-gradient(to right, #002f74, #0061B3);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-      max-width: 60%;
+      max-width: 100%;
  }
 
  .updated-text {
@@ -21,6 +21,7 @@
      color: #1B1D21;
      margin-top: 10px;
      max-width: 70%;
+     font-weight: 600;
  }
 
  /* POLICY CARD */
@@ -93,7 +94,24 @@
      -webkit-text-fill-color: transparent;
       max-width: 100%;
  }
-
+.about-core {
+    padding: 88px 0!important;
+    background-image: url(../image/careers/our-value.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+.cta-bg {
+    background-image: url(../image/home-page/cta-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 88px 0!important;
+}
      .policy-card {
          padding: 22px 20px;
      }
@@ -113,6 +131,11 @@
      margin-top: 10px;
       max-width: 100%;
  }
+ .section-title {
+    font-weight: 300;
+    font-size: 36px!important;
+    margin-bottom: 20px;
+}
  }
 
 

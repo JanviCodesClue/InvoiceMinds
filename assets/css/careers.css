@@ -35,7 +35,9 @@
     background: #fff;
 }
 
-
+.W-60{
+    width: 60%;
+}
 .career-why-item {
     text-align: center;
 }
@@ -83,6 +85,9 @@
     .mt-60-md {
         margin-top: 40px;
     }
+    .W-60{
+    width: 100%;
+}
     .career-why-num {
     width: 55px;
     height: 55px;
@@ -257,18 +262,19 @@
     background: rgba(255, 255, 255, 0.12);
     /* only difference */
     border: 2px solid #468AAF;
-    min-height: 160px;
+    min-height: 200px;
     transition: 0.3s;
     text-align: left;
     backdrop-filter: blur(8px);
-    width: 100%;
+    width: 97%;
+    margin-left: auto;
 }
 
 /* TOP TAB LIKE serve-tab */
 .core-tag {
     position: absolute;
     top: -22px;
-    left: -17px;
+    left: -24px;
     padding: 8px 10px;
     font-size: 18px;
     font-weight: 600;
@@ -383,7 +389,7 @@
 
 /* DESC */
 .career-step-desc {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 22px;
     margin-top: 10px;
     color: #5b6473;
@@ -432,14 +438,14 @@
 
 /* MOBILE TEXT */
 .career-mob-text h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #0c1c3c;
     margin-bottom: 6px;
 }
 
 .career-mob-text p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: #5b6473;
 }
@@ -498,7 +504,7 @@
   .core-box {
     position: relative;
     border-radius: 14px;
-    padding: 50px 24px 24px 24px;
+    padding: 30px 24px 24px 24px;
     background: rgba(255, 255, 255, 0.12);
     /* only difference */
     border: 2px solid #468AAF;
@@ -506,6 +512,7 @@
     text-align: left;
     backdrop-filter: blur(8px);
     width: 100%;
+    min-height: 150px;
 }
 .career-contact p {
     font-size: 22px;
@@ -652,6 +659,11 @@
         flex-wrap: wrap;
         gap: 6px;
     }
+    .career-mob-text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5b6473;
+}
 .career-contact p {
     font-size:20px;
     margin-top: 24px;

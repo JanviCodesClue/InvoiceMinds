@@ -1,0 +1,110 @@
+.sec-py{
+    padding: 120px 0;
+    border-bottom: #E6E6E6 1px solid;
+}
+
+
+.sec-h2{
+    font-size: 55px;
+    font-weight: 300;
+    color: #1B1D21;
+}
+.sec-h2-blue{
+    background: linear-gradient(to right, #0049a8, #0061d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.bg-yellow{
+    background-color: #FFF9EB;
+}
+.bg-light-yellow{
+    background-color: #FFF9EB;
+}
+.bg-sky-blue{
+    background-color: #D8F5FD;
+}
+.bg-orange{
+    background-color: #FFF0EB;
+}
+.bg-blue{
+ background-color: #EBEBFF;
+}
+.icon-box-size{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-32{
+    width: 32px;
+    height: 32px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-40{
+    margin-bottom: 40px!important;
+}
+.sec-dec{
+    font-size: 20px;
+    color: #4A5565;
+}
+.point-size{
+    height: 24px;
+    width: 24px;
+}
+.inner-dec{
+    color: #1B1D21;
+    font-size: 16px;
+}
+.me-8{
+    margin-right: 8px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.sec-sky-blue{
+     background-image: url(../image/home-page/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.choose-card{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #D4F5FD;
+    padding: 30px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.col-5-equal {
+    flex: 0 0 auto;
+   width: 20%;
+}
+@media (max-width: 991px) {
+.col-5-equal {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
+@media (max-width: 768px) {
+.mt-sm-5-cus{
+    margin-top: 40px;
+}
+.col-5-equal {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
